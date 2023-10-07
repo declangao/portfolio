@@ -3,7 +3,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import { motion } from 'framer-motion';
 
 import { isValidEmail } from '@/utils/util';
-import Spinner from '@/components/ui/spinner';
+import Spinner from '@/components/ui/Spinner';
 
 import 'react-toastify/dist/ReactToastify.css';
 

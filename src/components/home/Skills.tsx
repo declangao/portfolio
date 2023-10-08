@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 import Heading from '../ui/Heading';
-import Skill from '../Skill';
+import Skill from './Skill';
 
 type Props = {};
 
@@ -21,7 +21,7 @@ export default function Skills({}: Props) {
       className="flex flex-col justify-start mx-auto items-center pb-20"
     >
       <Heading text="SKILLS" center />
-      <div className="grid grid-cols-4 gap-4 md:gap-8 pt-12">
+      <div className="grid grid-cols-4 gap-1 md:gap-8 pt-12">
         <Skill image="react.png" text="React" directionLeft />
         <Skill image="nextjs.png" text="Next.js" directionLeft />
         <Skill image="vue.png" text="Vue" directionLeft />

@@ -22,10 +22,10 @@ export default function Skill({ image, text, directionLeft }: Props) {
         transition={{ duration: 1 }}
         src={`/images/${image}`}
         alt={text}
-        className="rounded-full border border-gray-500 object-cover w-24 h-24 md:w-28 md:h-28 xl:w-32 xl:h-32 filter group-hover:grayscale transition duration-300 ease-in-out"
+        className="rounded-full border border-gray-500 object-cover w-20 h-20 md:w-28 md:h-28 xl:w-32 xl:h-32 filter group-hover:grayscale transition duration-300 ease-in-out"
       />
 
-      <div className="absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out rounded-full z-0 group-hover:bg-white h-24 w-24 md:w-28 md:h-28 xl:w-32 xl:h-32">
+      <div className="absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out rounded-full z-0 group-hover:bg-white h-20 w-20 md:w-28 md:h-28 xl:w-32 xl:h-32">
         <div className="flex justify-center items-center h-full">
           <p className="text-xl font-bold text-black opacity-100">{text}</p>
         </div>

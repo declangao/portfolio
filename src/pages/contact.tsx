@@ -64,13 +64,13 @@ export default function Contact() {
   };
 
   return (
-    <div className="h-[calc(100vh-12rem)] relative flex flex-col justify-center items-center max-w-full px-10 mx-auto">
+    <div className="relative flex flex-col justify-center items-center max-w-full px-2 md:px-10 py-4 md:py-8 mx-auto">
       <motion.h1
         initial={{ y: -200, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         className="text-4xl text-center mb-8"
       >
-        Feel free to leave me a message
+        Feel Free to Leave Me a Message
       </motion.h1>
 
       <ToastContainer />
@@ -84,7 +84,7 @@ export default function Contact() {
           className="flex flex-col space-y-4 w-fit mx-auto"
           onSubmit={handleSubmit}
         >
-          <div className="flex space-x-4">
+          <div className="flex flex-col md:flex-row space-x-0 space-y-4 md:space-y-0 md:space-x-4">
             <input
               className="contact-input"
               placeholder="Name"

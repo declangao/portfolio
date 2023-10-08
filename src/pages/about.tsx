@@ -26,9 +26,10 @@ const itemVariantsRight = {
 };
 
 export default function AboutPage() {
+  // h-[calc(100vh-12rem)]
   return (
     <motion.div
-      className="h-[calc(100vh-12rem)] pt-60 md:pt-0 flex justify-center items-center flex-col md:flex-row gap-4"
+      className="py-4 md:py-8 flex justify-center items-center flex-col md:flex-row gap-4"
       variants={{
         hidden: {
           scale: 0,
@@ -54,7 +55,7 @@ export default function AboutPage() {
 
         <motion.p className="mb-2" variants={itemVariantsLeft}>
           I am <span className="text-primary">Declan Gao</span>, a{' '}
-          <span className="text-primary">frontend developer</span> from{' '}
+          <span className="text-primary">frontend developer</span> based in{' '}
           <span className="text-primary">Toronto, Canada</span>. Originally born
           in <span className="text-primary">China</span>. I moved to{' '}
           <span className="text-primary">New Zealand</span> when I was young and
@@ -63,15 +64,15 @@ export default function AboutPage() {
 
         <motion.p className="mb-2" variants={itemVariantsLeft}>
           Being a top graduate, I hold{' '}
-          <span className="text-primary">Postgrad Dip</span> and{' '}
-          <span className="text-primary">Bachelor</span> degree in{' '}
+          <span className="text-primary">Postgraduate Diploma</span> and{' '}
+          <span className="text-primary">Bachelor degree</span> in{' '}
           <span className="text-primary">Computer Science</span> from{' '}
           <span className="text-primary">The University of Waikato</span> and{' '}
           <span className="text-primary">Waikato Institute of Technology</span>.
         </motion.p>
 
         <motion.p className="mb-2" variants={itemVariantsLeft}>
-          Having worked in numeric countries in the last decade, I&apos;m a
+          Having worked in numerous countries in the last decade, I&apos;m a
           seasoned frontend developer mainly focused on{' '}
           <span className="text-primary">React</span> and{' '}
           <span className="text-primary">Vue</span>. I&apos;m also a big fan of{' '}

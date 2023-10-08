@@ -32,7 +32,8 @@ export default function Hero() {
     words: [
       'with 8 years of experience.',
       'who loves to learn new things.',
-      'who ...',
+      'who welcomes a good challenge.',
+      'who does not shy away from hardwork.',
     ],
     loop: true,
     delaySpeed: 2000,
@@ -40,7 +41,7 @@ export default function Hero() {
 
   return (
     <motion.div
-      className="h-[calc(100vh-10rem)] container mx-auto flex px-5 py-24 md:flex-row flex-col items-center relative"
+      className="h-full md:h-[calc(100vh-10rem)] container mx-auto flex px-5 py-24 md:flex-row flex-col items-center relative"
       variants={{
         hidden: {
           scale: 0,

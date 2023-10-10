@@ -29,7 +29,7 @@ export default function AboutPage() {
   // h-[calc(100vh-12rem)]
   return (
     <motion.div
-      className="py-4 md:py-8 flex justify-center items-center flex-col md:flex-row gap-4"
+      className="py-4 md:py-8 flex justify-center items-center flex-col lg:flex-row gap-4"
       variants={{
         hidden: {
           scale: 0,
@@ -59,7 +59,7 @@ export default function AboutPage() {
           <span className="text-primary">Toronto, Canada</span>. Originally born
           in <span className="text-primary">China</span>. I moved to{' '}
           <span className="text-primary">New Zealand</span> when I was young and
-          now I proudly call Canada home.
+          now I call Canada home.
         </motion.p>
 
         <motion.p className="mb-2" variants={itemVariantsLeft}>
@@ -99,7 +99,7 @@ export default function AboutPage() {
       </div>
 
       <motion.div
-        className="w-full md:w-1/2 flex flex-col"
+        className="w-full lg:w-1/2 flex flex-col"
         variants={itemVariantsRight}
       >
         <h3 className="text-center">Emjoy some of my drone videos 👇</h3>

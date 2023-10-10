@@ -5,7 +5,7 @@ type Props = {};
 export default function BackToTop({}: Props) {
   return (
     <button
-      className="group text-sky-500 fixed bottom-4 right-4 p-2 hover:border rounded-lg border-sky-500/70"
+      className="group text-sky-500/50 fixed bottom-3 right-3 p-2 hover:border rounded-lg border-sky-500/50"
       onClick={() => {
         window.scrollTo({ top: 0, behavior: 'smooth' });
       }}

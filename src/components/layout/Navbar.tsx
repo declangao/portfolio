@@ -144,7 +144,7 @@ export default function Navbar() {
             <Logo />
           </Link>
 
-          <nav className="flex items-center sm:gap-3 md:gap-8">
+          <nav className="flex items-center gap-3 md:gap-8">
             {NavbarList.map((data, index) => (
               <Link key={index} href={data.href}>
                 <motion.div

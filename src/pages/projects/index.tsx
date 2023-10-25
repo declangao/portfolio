@@ -21,6 +21,23 @@ export const projects: Project[] = [
     isFeatured: true,
   },
   {
+    name: 'Household Task Manager',
+    slug: 'task-manager',
+    image: 'task-manager.png',
+    url: 'https://github.com/declangao/household-task-manager',
+    description:
+      'A simple tool to "micromanage" your spouse😉 Built with React, Next.js, Prisma, TypeScript, TailwindCSS and daisyUI',
+    features: [
+      'Next.js 13 App router, server component and server action',
+      'Fullstack app with backend authentication API',
+      'Prisma ORM with MongoDB',
+      'Multi-user authentication and assign task to user',
+      'Markdown editor and preview',
+      'Dark/light theme based on system setting',
+    ],
+    isFeatured: true,
+  },
+  {
     name: 'Next.js Markdown Blog',
     slug: 'blog',
     image: 'blog.png',
@@ -49,7 +66,6 @@ export const projects: Project[] = [
       'Light/dark theme',
       'Hive database',
     ],
-    isFeatured: true,
   },
   {
     name: 'English Level Evaluation Test for Children',

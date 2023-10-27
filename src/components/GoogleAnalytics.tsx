@@ -5,7 +5,7 @@ export default function GoogleAnalytics() {
     <>
       <Script
         async
-        src="https://www.googletagmanager.com/gtag/js?id=UA-35273723-1"
+        src="https://www.googletagmanager.com/gtag/js?id=G-58MVTF3Q2F"
       />
       <Script id="google-analytics">
         {`
@@ -13,7 +13,7 @@ export default function GoogleAnalytics() {
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
 
-          gtag('config', 'UA-35273723-1');
+          gtag('config', 'G-58MVTF3Q2F');
         `}
       </Script>
     </>
